@@ -1,0 +1,6 @@
+*{box-sizing: border-box;}
+
+header{ display:block;}
+
+img{display: block;
+max-width: fit-content;}
