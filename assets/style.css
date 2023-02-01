@@ -1,21 +1,32 @@
-
-header
-
-header{ display:inline;
-    text-align: right;
-    list-style-type: none;
-    padding: 0em;
-    margin: 0em;
+header {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0em;
+  margin: 0em;
 }
-nav{
-    display: inline-block;
-    text-align: row;
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;  
+
+}
+header h1{
+    width: 80%;
+    background-color: darkkhaki;
+    
+}
+img {
+ height:30vh;
+  width:100%;
 }
 
-img{display: block;
-max-width: fit-content;}
+img .grid-container   {
+  grid-column: 1/5;
+  display: grid;
 
- .grid-container {
-    display: grid;
-   grid: 150px /auto auto auto ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid: 150px / auto auto auto;
 }
