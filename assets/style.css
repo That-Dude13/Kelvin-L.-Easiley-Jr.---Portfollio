@@ -1,4 +1,5 @@
 
+header
 
 header{ display:inline;
     text-align: right;
@@ -6,7 +7,15 @@ header{ display:inline;
     padding: 0em;
     margin: 0em;
 }
+nav{
+    display: inline-block;
+    text-align: row;
+}
 
 img{display: block;
 max-width: fit-content;}
 
+ .grid-container {
+    display: grid;
+   grid: 150px /auto auto auto ;
+}
