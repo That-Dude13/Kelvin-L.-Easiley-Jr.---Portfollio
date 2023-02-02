@@ -23,11 +23,50 @@ img {
   
 }
 
-img .grid-container  {
+img .grid-container 1  {
   grid-column: 1/5;
   display: grid;
   flex-shrink: 50%;
   flex-wrap: wrap;
   justify-content: center;
   width: 50%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: ;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12,1fr);
+}
+
+.linear-gradient-background {
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+}
+
+.code-card .card-header {
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.code-card:hover,
+.code-card:hover .card-header {
+  box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+}
+
+.card-header {
+  position: relative;
+  margin-top: -20px;
 }
