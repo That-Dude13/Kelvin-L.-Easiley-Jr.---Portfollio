@@ -2,13 +2,15 @@ header {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  padding: 0em;
-  margin: 0em;
+  padding: 5%;
+  margin: 5%;
 }
 nav ul{
   display: flex;
   flex-direction: row;
-  justify-content: right;  
+  justify-content: right; 
+  margin: 5em; 
+  padding-right: 5em;
 
 }
 header h1{
@@ -17,16 +19,15 @@ header h1{
     
 }
 img {
- height:30vh;
-  width:100%;
+
+  
 }
 
-img .grid-container   {
+img .grid-container  {
   grid-column: 1/5;
   display: grid;
-
-  display: flex;
+  flex-shrink: 50%;
   flex-wrap: wrap;
   justify-content: center;
-  grid: 150px / auto auto auto;
+  width: 50%;
 }
