@@ -2,8 +2,8 @@ header {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  padding: 5%;
-  margin: 5%;
+  padding: 1em;
+  margin: 1em;
 }
 nav ul{
   display: flex;
@@ -14,59 +14,92 @@ nav ul{
 
 }
 header h1{
-    width: 80%;
+  display: flex;
+  justify:right;
+  margin-right: 100%;
     background-color: darkkhaki;
-    
 }
-img {
-
-  
-}
-
-img .grid-container 1  {
-  grid-column: 1/5;
-  display: grid;
-  flex-shrink: 50%;
-  flex-wrap: wrap;
+.amsterdam {
+  display: flex;
   justify-content: center;
-  width: 50%;
+  width: 25%;
+  margin:10em;
 }
 
+.bridge {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin:10em;
+}
+
+.chapel {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin:10em;
+}
+
+.fountian{ 
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin:10em;
+}
+
+.mexico{
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin:10em;
+}
+
+ .contact{
+  display: flex;
+  flex-direction: column;
+  -ms-flex-align: stretch;
+}
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: ;
 }
-
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.grid {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(12,1fr);
-}
-
-.linear-gradient-background {
+linear-gradient-background{
   background-image: linear-gradient(
     rgba(232, 102, 236, 0.3) 0%,
     rgba(232, 102, 236, 0.6) 100%
   );
 }
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid .img{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12,1fr);
+}
+
+.
 
 .code-card .card-header {
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
 }
 
-.code-card:hover,
-.code-card:hover .card-header {
+
+.code-card:hover{
   box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
 }
 
 .card-header {
   position: relative;
   margin-top: -20px;
+}
+
+.img{
+  display: flex;
+  display: inline;
+justify-content: space-around;
 }
