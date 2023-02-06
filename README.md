@@ -1,6 +1,5 @@
 # Kelvin-L.-Easiley-Jr.-Portfollio
-Portfolio of Kelvin Jr. 
-
+ 
 GIVEN the task to create a porfotilo to store furture projects
 WHEN I create the HTML & CSS
 THEN I can add placeholder elements and text 
