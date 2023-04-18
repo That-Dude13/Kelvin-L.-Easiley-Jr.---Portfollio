@@ -49,6 +49,8 @@ li a:hover {
   width: 500px;
   margin: auto;
   border: 3px solid black;
+  columns: flex;
+  
 }
 
 /* additional formatting for images and text */
@@ -56,6 +58,8 @@ li a:hover {
   flex-basis: 60%;
   flex-wrap: wrap;
   display: flex;
+  
+  
 }
 /* Font for 'About Me' section. Includes a san-serif option*/
 p {
